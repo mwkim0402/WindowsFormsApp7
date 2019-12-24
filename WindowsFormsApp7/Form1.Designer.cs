@@ -34,6 +34,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -68,11 +70,25 @@
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 3;
             // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(30, 59);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
@@ -91,6 +107,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
