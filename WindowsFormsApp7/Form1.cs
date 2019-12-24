@@ -16,5 +16,15 @@ namespace WindowsFormsApp7
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = "sggs";
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Text = "하이룽!";
+        }
     }
 }
