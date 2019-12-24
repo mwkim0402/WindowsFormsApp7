@@ -21,5 +21,10 @@ namespace WindowsFormsApp7
         {
             this.Text = "sggs";
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Text = "하이룽!";
+        }
     }
 }
